@@ -46,7 +46,7 @@
     - Percentage difference overlays to highlight the scale of divergence.
     - A consistent colour scheme and large, readable labels and fonts for accesibility.
     
-
+    >
     > **How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?** 
 
     The Python plots are fully reproducible using the shared code and datasets. Anyone with access to the files can replicate the exact results.
@@ -65,7 +65,7 @@
     - Clean, uncluttered visuals.
     - Exporting static charts to ensure compatibility with screen readers.
 
-
+    >
     > **Who are the individuals and communities who might be impacted by your visualization?**  
 
     This project is relevant to several groups:
@@ -74,7 +74,7 @@
     - Local food advocates, as rising costs could influence prices or production strategies.
     - Taxpayers and citizens, who benefit from a sustainable, affordable agricultural sector.
 
-
+    >
     > **How did you choose which features of your chosen dataset to include or exclude from your visualization?** 
 
     For the Python visualizations, I selected the four core cost categories included in the raw data (payroll, fuel, electricity, and purchases) and summarized them against total cost and sales, I previously transformed the data to a "per '000 sqm" basis to allow comparison over time. More granular sales data, type of greenhouse, and total number of employees were excluded to reduce noise. Total area is implicitily used as the metrics are per '000 sqm.
