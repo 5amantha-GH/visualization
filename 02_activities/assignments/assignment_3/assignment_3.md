@@ -8,78 +8,87 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > **What software did you use to create your data visualization?**
-            I used Python (Matplotlib and Pandas) to generate the first set of visualizations. Python was chosen for its precision, transparency, and full reproducibility. I used Google Sheets for the second visualization, as it is accessible and well-suited for creating clean, comparative charts from tabular data.
+    
+    I used Python (Matplotlib and Pandas) to generate the first set of visualizations. Python was chosen for its precision, transparency, and full reproducibility. I used Google Sheets for the second visualization, as it is accessible and well-suited for creating clean, comparative charts from tabular data.
 
 
     > **Who is your intended audience?** 
-            I assumed my main stakeholders were a group of greenhouse owners of Ontario concerned about rising costs and higher payrolls. The visualizations are designed for static use, either printed or presented in slides.
+
+    I assumed my main stakeholders were a group of greenhouse owners of Ontario concerned about rising costs and higher payrolls. The visualizations are designed for static use, either printed or presented in slides.
             
-            Other potential audiences include: 
-                - Policymakers and agricultural economists evaluating cost trends.
-                - Greenhouse operators making financial or operational decisions.
-                - Academics and students studying agricultural sustainability in Ontario.
-                - Journalists or members of the public interested in local food production.
+    Other potential audiences include: 
+        - Policymakers and agricultural economists evaluating cost trends.
+        - Greenhouse operators making financial or operational decisions.
+        - Academics and students studying agricultural sustainability in Ontario.
+        - Journalists or members of the public interested in local food production.
 
     > **What information or message are you trying to convey with your visualization?** 
-            The first Python visualization is a side-by-side plot of major operational costs in Ontario’s greenhouse industry from 2014 to 2024. It highlights the evolution of payroll, purchase inputs, fuel, and electricity, showing an upward trend in all but fuel. The second subplot summarizes total sales versus total main operational costs. The main insight is that since 2022, and for the first time in many years (except for 2020), total sales have more than doubled total main operational costs, despite of its upward tendency since 2020. This suggests improved returns on operational investments.
-                
-            It is important to note that the source doesn't mention other operational costs. Therefore, I assumed the selected categories represent the main sources of operational expenses. Also, due to the absence of data on machinery and installation acquisition or maintenance - for example - we cannot make conclusions about net gains.
-                
-            The Google Sheets visualization compares the average payroll per employee in Ontario vs Canada between 2014 and 2023 (2024 data was not available). Ontario's payroll costs are rising and consistently outpacing the national average by approximately 13% to 16%.
+
+    The first Python visualization is a side-by-side plot of major operational costs in Ontario’s greenhouse industry from 2014 to 2024. It highlights the evolution of payroll, purchase inputs, fuel, and electricity, showing an upward trend in all but fuel. The second subplot summarizes total sales versus total main operational costs. The main insight is that since 2022, and for the first time in many years (except for 2020), total sales have more than doubled total main operational costs, despite of its upward tendency since 2020. This suggests improved returns on operational investments.
+        
+    It is important to note that the source doesn't mention other operational costs. Therefore, I assumed the selected categories represent the main sources of operational expenses. Also, due to the absence of data on machinery and installation acquisition or maintenance - for example - we cannot make conclusions about net gains.
+        
+    The Google Sheets visualization compares the average payroll per employee in Ontario vs Canada between 2014 and 2023 (2024 data was not available). Ontario's payroll costs are rising and consistently outpacing the national average by approximately 13% to 16%.
 
 
     > **What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?**
-            For the Python visualizations, I considered:
-                - Telling a short story addressing the main concern of the stakeholders.
-                - Using colourblind safe colour scheme (e.g., #0072B2, #E69F00).
-                - Including distinct marker shapes to aid users with low vision.
-                - Adding grid lines and large fonts to enhance clarity.
-                - Choosing a monospaced, accessible font (Arial) for better readability.
-                - Applying whitespace thoughtfully to avoid visual clutter.
-            
-            For the Google Sheets visualization, I used:
-                - Side-by-side bar charts to display provincial vs national trends.
-                - Percentage difference overlays to highlight the scale of divergence.
-                - A consistent colour scheme and large, readable labels and fonts for accesibility.
+    
+    For the Python visualizations, I considered:
+        - Telling a short story addressing the main concern of the stakeholders.
+        - Using colourblind safe colour scheme (e.g., #0072B2, #E69F00).
+        - Including distinct marker shapes to aid users with low vision.
+        - Adding grid lines and large fonts to enhance clarity.
+        - Choosing a monospaced, accessible font (Arial) for better readability.
+        - Applying whitespace thoughtfully to avoid visual clutter.
+    
+    For the Google Sheets visualization, I used:
+        - Side-by-side bar charts to display provincial vs national trends.
+        - Percentage difference overlays to highlight the scale of divergence.
+        - A consistent colour scheme and large, readable labels and fonts for accesibility.
     
 
     > **How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?** 
-            The Python plots are fully reproducible using the shared code and datasets. Anyone with access to the files can replicate the exact results.
-            
-            Google Sheets is less reproducible due to manual formatting and chart building. This may reduce trustworthiness. However, I mitigated this by making the raw data and calculations accessible.
-            
-            Raw data, basic calculations, and the Google Sheets visualization can be found under the Excel file named: *greenhouse1_en.xlsx*.
+
+    The Python plots are fully reproducible using the shared code and datasets. Anyone with access to the files can replicate the exact results.
+    
+    Google Sheets is less reproducible due to manual formatting and chart building. This may reduce trustworthiness. However, I mitigated this by making the raw data and calculations accessible.
+    
+    Raw data, basic calculations, and the Google Sheets visualization can be found under the Excel file named: *greenhouse1_en.xlsx*.
 
 
     > **How did you ensure that your data visualization is accessible?**  
-            Accessibility was addressed through:
-                - High-contrast colours.
-                - Text labels that do not rely on colour alone.
-                - Sans-serif fonts in Google Sheets and monospaced fonts in Python.
-                - Clean, uncluttered visuals.
-                - Exporting static charts to ensure compatibility with screen readers.
+
+    Accessibility was addressed through:
+        - High-contrast colours.
+        - Text labels that do not rely on colour alone.
+        - Sans-serif fonts in Google Sheets and monospaced fonts in Python.
+        - Clean, uncluttered visuals.
+        - Exporting static charts to ensure compatibility with screen readers.
 
 
     > **Who are the individuals and communities who might be impacted by your visualization?**  
-            This project is relevant to several groups:
-                - Greenhouse workers and operators, whose livelihoods and strategies are influenced by the trends presented.
-                - Policy stakeholders, who might use these data to adjust subsidies, energy regulation, or payroll policies.
-                - Local food advocates, as rising costs could influence prices or production strategies.
-                - Taxpayers and citizens, who benefit from a sustainable, affordable agricultural sector.
+
+    This project is relevant to several groups:
+        - Greenhouse workers and operators, whose livelihoods and strategies are influenced by the trends presented.
+        - Policy stakeholders, who might use these data to adjust subsidies, energy regulation, or payroll policies.
+        - Local food advocates, as rising costs could influence prices or production strategies.
+        - Taxpayers and citizens, who benefit from a sustainable, affordable agricultural sector.
 
 
     > **How did you choose which features of your chosen dataset to include or exclude from your visualization?** 
-            For the Python visualizations, I selected the four core cost categories included in the raw data (payroll, fuel, electricity, and purchases) and summarized them against total cost and sales, I previously transformed the data to a "per '000 sqm" basis to allow comparison over time. More granular sales data, type of greenhouse, and total number of employees were excluded to reduce noise. Total area is implicitily used as the metrics are per '000 sqm.
 
-            In the Google Sheets visualization, I included provincial and national payroll data to offer comparative insight. The average payroll per employee was calculated.
+    For the Python visualizations, I selected the four core cost categories included in the raw data (payroll, fuel, electricity, and purchases) and summarized them against total cost and sales, I previously transformed the data to a "per '000 sqm" basis to allow comparison over time. More granular sales data, type of greenhouse, and total number of employees were excluded to reduce noise. Total area is implicitily used as the metrics are per '000 sqm.
+
+    In the Google Sheets visualization, I included provincial and national payroll data to offer comparative insight. The average payroll per employee was calculated.
 
 
     > **What ‘underwater labour’ contributed to your final data visualization product?**
-            A significant portion of this project involved unseen work and support:
-                - Data sourcing, cleaning, and validation by researchers and assistants.
-                - Designers behind accessible colour schemes.
-                - IT support staff ensuring technical tools functioned smoothly.
-                - Among many others...
+    
+    A significant portion of this project involved unseen work and support:
+        - Data sourcing, cleaning, and validation by researchers and assistants.
+        - Designers behind accessible colour schemes.
+        - IT support staff ensuring technical tools functioned smoothly.
+        - Among many others...
 
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
