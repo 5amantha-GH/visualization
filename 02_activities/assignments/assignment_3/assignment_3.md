@@ -17,10 +17,10 @@
     I assumed my main stakeholders were a group of greenhouse owners of Ontario concerned about rising costs and higher payrolls. The visualizations are designed for static use, either printed or presented in slides.
             
     Other potential audiences include: 
-        - Policymakers and agricultural economists evaluating cost trends.
-        - Greenhouse operators making financial or operational decisions.
-        - Academics and students studying agricultural sustainability in Ontario.
-        - Journalists or members of the public interested in local food production.
+    - Policymakers and agricultural economists evaluating cost trends.
+    - Greenhouse operators making financial or operational decisions.
+    - Academics and students studying agricultural sustainability in Ontario.
+    - Journalists or members of the public interested in local food production.
 
     > **What information or message are you trying to convey with your visualization?** 
 
@@ -34,17 +34,17 @@
     > **What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?**
     
     For the Python visualizations, I considered:
-        - Telling a short story addressing the main concern of the stakeholders.
-        - Using colourblind safe colour scheme (e.g., #0072B2, #E69F00).
-        - Including distinct marker shapes to aid users with low vision.
-        - Adding grid lines and large fonts to enhance clarity.
-        - Choosing a monospaced, accessible font (Arial) for better readability.
-        - Applying whitespace thoughtfully to avoid visual clutter.
+    - Telling a short story addressing the main concern of the stakeholders.
+    - Using colourblind safe colour scheme (e.g., #0072B2, #E69F00).
+    - Including distinct marker shapes to aid users with low vision.
+    - Adding grid lines and large fonts to enhance clarity.
+    - Choosing a monospaced, accessible font (Arial) for better readability.
+    - Applying whitespace thoughtfully to avoid visual clutter.
     
     For the Google Sheets visualization, I used:
-        - Side-by-side bar charts to display provincial vs national trends.
-        - Percentage difference overlays to highlight the scale of divergence.
-        - A consistent colour scheme and large, readable labels and fonts for accesibility.
+    - Side-by-side bar charts to display provincial vs national trends.
+    - Percentage difference overlays to highlight the scale of divergence.
+    - A consistent colour scheme and large, readable labels and fonts for accesibility.
     
 
     > **How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?** 
@@ -59,20 +59,20 @@
     > **How did you ensure that your data visualization is accessible?**  
 
     Accessibility was addressed through:
-        - High-contrast colours.
-        - Text labels that do not rely on colour alone.
-        - Sans-serif fonts in Google Sheets and monospaced fonts in Python.
-        - Clean, uncluttered visuals.
-        - Exporting static charts to ensure compatibility with screen readers.
+    - High-contrast colours.
+    - Text labels that do not rely on colour alone.
+    - Sans-serif fonts in Google Sheets and monospaced fonts in Python.
+    - Clean, uncluttered visuals.
+    - Exporting static charts to ensure compatibility with screen readers.
 
 
     > **Who are the individuals and communities who might be impacted by your visualization?**  
 
     This project is relevant to several groups:
-        - Greenhouse workers and operators, whose livelihoods and strategies are influenced by the trends presented.
-        - Policy stakeholders, who might use these data to adjust subsidies, energy regulation, or payroll policies.
-        - Local food advocates, as rising costs could influence prices or production strategies.
-        - Taxpayers and citizens, who benefit from a sustainable, affordable agricultural sector.
+    - Greenhouse workers and operators, whose livelihoods and strategies are influenced by the trends presented.
+    - Policy stakeholders, who might use these data to adjust subsidies, energy regulation, or payroll policies.
+    - Local food advocates, as rising costs could influence prices or production strategies.
+    - Taxpayers and citizens, who benefit from a sustainable, affordable agricultural sector.
 
 
     > **How did you choose which features of your chosen dataset to include or exclude from your visualization?** 
@@ -83,12 +83,12 @@
 
 
     > **What ‘underwater labour’ contributed to your final data visualization product?**
-    
+
     A significant portion of this project involved unseen work and support:
-        - Data sourcing, cleaning, and validation by researchers and assistants.
-        - Designers behind accessible colour schemes.
-        - IT support staff ensuring technical tools functioned smoothly.
-        - Among many others...
+    - Data sourcing, cleaning, and validation by researchers and assistants.
+    - Designers behind accessible colour schemes.
+    - IT support staff ensuring technical tools functioned smoothly.
+    - Among many others...
 
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
