@@ -22,7 +22,9 @@
     - Academics and students studying agricultural sustainability in Ontario.
     - Journalists or members of the public interested in local food production.
 
+    >
     > **What information or message are you trying to convey with your visualization?** 
+    >
 
     The first Python visualization is a side-by-side plot of major operational costs in Ontario’s greenhouse industry from 2014 to 2024. It highlights the evolution of payroll, purchase inputs, fuel, and electricity, showing an upward trend in all but fuel. The second subplot summarizes total sales versus total main operational costs. The main insight is that since 2022, and for the first time in many years (except for 2020), total sales have more than doubled total main operational costs, despite of its upward tendency since 2020. This suggests improved returns on operational investments.
         
@@ -47,7 +49,8 @@
     - A consistent colour scheme and large, readable labels and fonts for accesibility.
     
     >
-    > **How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?** 
+    > **How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?**
+    > 
 
     The Python plots are fully reproducible using the shared code and datasets. Anyone with access to the files can replicate the exact results.
     
@@ -67,7 +70,8 @@
 
     >
     > **Who are the individuals and communities who might be impacted by your visualization?**  
-
+    >
+    
     This project is relevant to several groups:
     - Greenhouse workers and operators, whose livelihoods and strategies are influenced by the trends presented.
     - Policy stakeholders, who might use these data to adjust subsidies, energy regulation, or payroll policies.
@@ -76,6 +80,7 @@
 
     >
     > **How did you choose which features of your chosen dataset to include or exclude from your visualization?** 
+    >
 
     For the Python visualizations, I selected the four core cost categories included in the raw data (payroll, fuel, electricity, and purchases) and summarized them against total cost and sales, I previously transformed the data to a "per '000 sqm" basis to allow comparison over time. More granular sales data, type of greenhouse, and total number of employees were excluded to reduce noise. Total area is implicitily used as the metrics are per '000 sqm.
 
